@@ -1,0 +1,4 @@
+
+# Ignore all compiled Java code
+java/njdup
+java/**/*.class
