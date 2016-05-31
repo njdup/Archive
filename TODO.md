@@ -52,7 +52,7 @@ Algorithms and Data Structures to Implement
   - Multisplay Trees
   - Online greedy BSTs
 
-Integers
+- Integers
   - x-Fast trie
   - y-Fast trie
   - van Emde Boas tree
@@ -122,7 +122,3 @@ Things to lookup and learn
 - Logical Data Structures
   - Boolean Expression Diagrams
 - Push-down automata
-
-- Make interface for Graphs
-  - then implement data structures that adhere to that interface
-  - this will make coding graph algorithms easier :)
