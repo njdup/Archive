@@ -14,37 +14,67 @@ Algorithms and Data Structures to Implement
   - Bloom Filter
   - Quotient Filter
   - Count sketch
+  - Count-min sketch (finish)
+  - Tug-of-War sketch
+  - Group tester for k-heavy hitters
 
 - Heaps
   - Binomial Heap (rust)
+    - + Lazy Binomial Heap
   - Fibonacci heap (rust)
   - Soft Heap
   - Shadow Heap
   - Pairing heap
   - Brodal queue
   - Treap
+  - Heap w/ efficient add-to-all functionality
 
 - Trees
   - Splay Tree
     - w/ normal recursive splaying
     - w/ top-down splaying
   - Red-Black Tree
+    - with split and join operations
+    - Maybe make easy to augment Red-Black Tree ?
+  - AVL Tree
   - B-Tree
+  - B+-Tree
   - Fusion Tree
-  - Disjoint set data Structure
-  - Van Emde Boas tree
-  - x-Fast trie
-  - y-Fast trie
   - Kd-tree
   - Segment Tree
   - Tango Tree
   - Trie
+  - Finger tree
+  - Euler Tour Trees
+  - Link/cut trees
+  - Weight balanced Trees
+  - Knuth O(n^2) alg for constructing statically optimal BSTs
+  - Multisplay Trees
+  - Online greedy BSTs
+
+Integers
+  - x-Fast trie
+  - y-Fast trie
+  - van Emde Boas tree
+
+- Strings
+  - Suffix Tree (Ukkonen's Algorithm)
+  - DAWG
+  - Suffix Array (DC3 Algorithm)
+  - Aho Corasick Automaton
+  - Knuth-Morris-Pratt Algorithm
+  - k-approximate matching
+  - Boyer-Moore Algorithm
+  - Commentz-Waltz Algorithm
+  - Longest Repeated Substring problem
+  - Longest common substring
+  - Kasai's LCP algorithm
+  - Farach's Algorithm
+  - Factor Oracle
+  - Burrows-Wheeler Transform
 
 - Skip List
-- Suffix Tree (Ukkonen's Algorithm)
-- DAWG
-- Suffix Array
-- Aho Corasick Automaton
+  - + Deterministic skip list (1-2-3 skip list)
 - Fischer-Heun RMQ Structure
 
 - Max Flow Algorithms
@@ -53,17 +83,31 @@ Algorithms and Data Structures to Implement
   - Edmonds-Karp
   - Ford-Fulkerson
 
-- Hungarian Algorithm (for min-cost perfect matching)
 - Multiplicative weights Algorithm (Java)
   - + a framework for "online" problems (Java)
-- Christofide's TSP approximation Algorithm
-- Topological Sort
 
-- Various Graph Algorithms
-  - Dijkstra's
-  - Kruskal's
-  - Prim's
+- Graphs:
+  - Disjoint set data Structure
+  - Topological Sort
+  - Christofide's TSP approximation Algorithm
+  - Hungarian Algorithm (for min-cost perfect matching)
+  - Various Graph Algorithms
+    - Dijkstra's
+    - Kruskal's
+    - Prim's
+    - Chu-Liu-Edmonds directed graph MSY algorithm
 
+- Sorting
+  - Radix Sort
+  - The usuals (quick, heap, merge)
+
+Misc. Ideas
+-----------
+- Make interface for Graphs
+  - then implement data structures that adhere to that interface
+  - this will make coding graph algorithms easier :)
+- Build a platform for running performance benchmark testing on data structures/algorithms
+  - Could this be done programming language agnostic?
 
 Things to lookup and learn
 --------------------------
@@ -72,9 +116,13 @@ Things to lookup and learn
 - Tabulation Hashing
 - How to generate multiple hash functions
 - Purely functional data structures
+- Dynamically optimal BSTs
+- Cardinality Estimators
+- Random Graph Theory
+- Logical Data Structures
+  - Boolean Expression Diagrams
+- Push-down automata
 
-Things to figure out
---------------------
 - Make interface for Graphs
   - then implement data structures that adhere to that interface
   - this will make coding graph algorithms easier :)
