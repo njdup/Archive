@@ -1,4 +1,4 @@
-To compile and run java tests (from dir with the test):
+To compile and run java tests (from dir with the test):  
     - javac -cp ../:$CLASSPATH FenwickTreeTest.java
     - java -cp ../:$CLASSPATH org.junit.runner.JUnitCore FenwickTreeTest
 

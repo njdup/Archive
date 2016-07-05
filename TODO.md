@@ -101,6 +101,9 @@ Algorithms and Data Structures to Implement
   - Radix Sort
   - The usuals (quick, heap, merge)
 
+- Misc.
+  - PageRank
+
 Misc. Ideas
 -----------
 - Make interface for Graphs
@@ -116,9 +119,13 @@ Things to lookup and learn
 - Tabulation Hashing
 - How to generate multiple hash functions
 - Purely functional data structures
+    - In hand, persistent data structures
+- Geometric data structures
+- Concurrent data structures
 - Dynamically optimal BSTs
 - Cardinality Estimators
 - Random Graph Theory
 - Logical Data Structures
   - Boolean Expression Diagrams
+  - Zero-supressed decision diagrams
 - Push-down automata
