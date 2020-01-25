@@ -1,8 +1,7 @@
+package datastructures.frequencies.CountMinSketch;
+
 import org.junit.Test;
 import static org.junit.Assert.*;
-
-// Class to be tested
-import njdup.CountMinSketch.CountMinSketch;
 
 public class CountMinSketchTest {
 

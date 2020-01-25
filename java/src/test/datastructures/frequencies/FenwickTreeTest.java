@@ -1,6 +1,7 @@
+package datastructures.frequencies.FenwickTree;
+
 import org.junit.Test;
 import static org.junit.Assert.*;
-import njdup.FenwickTree.FenwickTree;
 
 public class FenwickTreeTest {
 

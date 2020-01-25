@@ -1,4 +1,4 @@
-package njdup.CountMinSketch;
+package datastructures.frequencies.CountMinSketch;
 
 public interface FrequencyEstimator {
 

@@ -1,4 +1,4 @@
-package njdup.FenwickTree;
+package datastructures.frequencies.FenwickTree;
 
 /*
  * --------------------------------
