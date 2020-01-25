@@ -9,7 +9,6 @@ package datastructures.frequencies.CountMinSketch;
  * data structure for the frequency estimation problem.
  *
  */
-
 import java.util.Random;
 
 // TODO: Figure out if I can make this generic
