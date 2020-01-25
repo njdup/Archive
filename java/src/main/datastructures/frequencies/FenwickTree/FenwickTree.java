@@ -8,7 +8,6 @@ package datastructures.frequencies.FenwickTree;
  * The following is an implementation of the fenwick tree data structure
  *
  */
-
 public final class FenwickTree {
   private int size;
   private double[] cumulativeFreqs;
